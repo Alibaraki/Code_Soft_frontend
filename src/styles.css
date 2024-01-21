@@ -1,0 +1,102 @@
+body {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+    font-family: 'Consolas', 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  .input-group {
+    background-color: #252526;
+    border: 1px dashed #3C3C3C;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .input-group input[type="text"], 
+  .input-group textarea {
+    width: 100%;
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+    border: 1px solid #3C3C3C;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .input-group textarea {
+    resize: vertical;
+    height: auto;
+}
+.button-group {
+text-align: right;
+margin-top: 10px;
+}
+.button-group button {
+background-color: #007ACC;
+color: white;
+border: none;
+padding: 10px 20px;
+margin-left: 10px;
+cursor: pointer;
+}
+.button-group button:active {
+background-color: #005A9D;
+}
+.copy-btn {
+background-color: #3C3C3C;
+padding: 10px 20px;
+}
+.input-group select {
+    width: 100%;
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+    border: 1px solid #3C3C3C;
+    padding: 10px;
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="12px" height="12px" viewBox="0 0 4 5" xmlns="http://www.w3.org/2000/svg"><polyline points="2,1 0,3 4,3" style="fill:none;stroke:%23D4D4D4;stroke-width:1"/></svg>');
+}
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+  /* ... existing styles ... */
+
+.output-box {
+    margin-top: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    border: 1px solid #ccc; /* A light grey border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 15px;
+    color: #333; /* Dark text for visibility */
+  }
+  
+  .output-box pre {
+    white-space: pre-wrap; /* Ensures the text wraps */
+  }
+  /* ... existing styles ... */
+
+.output-box {
+    /* ... existing styles ... */
+    position: relative; /* For positioning the copy button absolutely within the container */
+  }
+  
+  .output-box IconButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
